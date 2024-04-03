@@ -1,6 +1,3 @@
-Certainly! Here are handwritten notes on data types and operators in JavaScript:
-
----
 
 **JavaScript Data Types & Operators**
 
