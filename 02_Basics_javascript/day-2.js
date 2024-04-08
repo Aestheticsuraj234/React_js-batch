@@ -18,6 +18,7 @@
 
 
     var VariablesName = "Jhon";
+  
     VariablesName = "Doe";
     // console.log(VariablesName);
     let age = 30;
@@ -26,4 +27,3 @@
     const city = "New York";
     city = "Boston";
     console.log(city);
-
