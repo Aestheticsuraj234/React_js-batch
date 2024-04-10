@@ -131,5 +131,24 @@ let array = [1, 2, 3];
 let includesTwo = array.includes(2);
 // includesTwo is true
 ```
+here are ten practice coding questions related to the array methods you provided:
 
-Hope these handwritten notes and examples are helpful!
+1. **Push and Pop Operations**: Implement a stack data structure using the `push` and `pop` methods of arrays.
+
+2. **Joining Strings**: Write a function that takes an array of strings and joins them together using the `join` method, separating each string with a specified separator.
+
+3. **Shift and Unshift**: Implement a queue data structure using the `shift` and `unshift` methods of arrays.
+
+4. **Slice and Concat**: Write a function that takes an array and two indices, `start` and `end`, and returns a new array containing the elements from the original array starting from `start` (inclusive) to `end` (exclusive). Then, concatenate this new array with another given array using the `concat` method.
+
+5. **Reverse and Sort**: Given an array of numbers, reverse the array using the `reverse` method, then sort the array in ascending order using the `sort` method.
+
+6. **Map and Filter**: Create a function that takes an array of numbers and returns a new array where each element is doubled, using the `map` method. Then, filter out all elements greater than 10 from the resulting array using the `filter` method.
+
+7. **Reduce**: Write a function that calculates the sum of all the numbers in an array using the `reduce` method.
+
+8. **Find and IndexOf**: Given an array of strings, find the index of the first string that starts with a given prefix using the `find` method. If not found, return the index of the first string that contains the prefix using the `indexOf` method.
+
+9. **Includes**: Create a function that checks if a given value exists in an array using the `includes` method. Return true if the value exists, otherwise false.
+
+10. **forEach**: Write a function that takes an array of objects representing people with `name` and `age` properties. Print out each person's name and age using the `forEach` method.

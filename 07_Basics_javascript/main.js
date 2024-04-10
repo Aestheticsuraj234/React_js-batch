@@ -68,7 +68,10 @@ console.log(arr3)
 // console.log(array);
 
 
-let array = [1, 2, ,53];
-array.forEach((element) => {
-  console.log(element);
-});
+// let array = [1, 2, ,53];
+// array.forEach((element) => {
+//   console.log(element);
+// });
+
+
+
