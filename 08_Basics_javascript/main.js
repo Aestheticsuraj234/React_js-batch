@@ -66,17 +66,4 @@ console.log(res8);
 
 // Write Reduce function without using reduce method
 
-function reduce(arr, cb, acc) {
-    for (let i = 0; i < arr.length; i++) {
-        acc = cb(acc, arr[i]);
-    }
-    return acc;
-}
-
-
-
-let arr = [1, 2, 3, 4, 5];
-let sum = reduce(arr, (acc, val) => acc + val, 0);
-
-console.log(sum); // 15
 

@@ -1,7 +1,5 @@
-
-```
 // Strings functions
-
+Strings are a fundamental data type in JavaScript that represent a sequence of characters. Here are some commonly used string functions along with examples:
 1. length:
    - Returns the number of characters in a string.
 
