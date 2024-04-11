@@ -105,10 +105,62 @@ console.log(colors)
 
 // *Filter - The filter() method creates a new array with all elements that pass the test implemented by the provided function.
 
-let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-let newArr = array.filter(function(element){
-    return element >=5
+// let newArr = array.filter(function(element){
+//     return element >=5
+// })
+
+// console.log(newArr)
+
+// *Reduce - The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
+
+
+
+// let nums = [1,2,3,4,5,6,7,8,9,10];
+
+// nums.reduce(function(previousValue,currentValue , index , array){
+//     console.log(previousValue , currentValue , index , array)
+// },10)
+
+
+let Products = [
+    {
+        id:1,
+        name:"Laptop",
+        price:50000
+    },
+    {
+        id:2,
+        name:"Mobile",
+        price:20000
+    },
+    {
+        id:3,
+        name:"Tablet",
+        price:15000
+    },
+    {
+        id:4,
+        name:"Earphone",
+        price:1000
+    }
+
+]
+
+let totalPrice = Products.reduce(function(prevValue , currValue){
+    console.log(`the previous value is ${prevValue} and the current value is ${currValue.price}`)
+    return  prevValue + currValue.price
+},0)
+
+console.log("Total Price is: ",totalPrice)
+
+
+let arr = [1,2,3,4,5,6,7,8,9,10]; //total = 55
+let totalSum = arr.reduce(function(prevValue,currValue){
+    
+    console.log(`the previous value is ${prevValue} and the current value is ${currValue}`)
+    return  prevValue + currValue
 })
 
-console.log(newArr)
+console.log("Total Sum is: ",totalSum)
