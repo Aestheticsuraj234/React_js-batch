@@ -1,7 +1,3 @@
-Creating handwritten notes isn't feasible here, but I can certainly guide you through the basics of the Document Object Model (DOM) in JavaScript. The DOM represents the structure of an HTML document and provides a way to interact with it using JavaScript.
-
-Here's a simplified version:
-
 Document Object Model (DOM) in JavaScript
 
 1. What is DOM?
@@ -210,6 +206,3 @@ Here's an example that demonstrates the use of these properties:
   </body>
 </html>
 
-```
-
-Remember to choose the appropriate property based on your use case and the content you're dealing with.
