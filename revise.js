@@ -1,108 +1,133 @@
-const readline = require('readline');
+// const readline = require('readline');
 
-function one() {
-    const username = "Suraj";
-    function two() {
-        const website = "googleMeet";
-        console.log(username);
-    }
+// function one() {
+//     const username = "Suraj";
+//     function two() {
+//         const website = "googleMeet";
+//         console.log(username);
+//     }
 
-    //console.log(website)
-    two();
-}
+//     //console.log(website)
+//     two();
+// }
 
-one();
-
-
-if (true) {
-    const username = "Suraj";
-
-    if (username === "Suraj") {
-        const website = "googleMeet";
-        console.log(username + " " + website);
-    }
-
-    //console.log(website)
-}
-
-console.log(username + " " + website);
+// one();
 
 
+// if (true) {
+//     const username = "Suraj";
 
+//     if (username === "Suraj") {
+//         const website = "googleMeet";
+//         console.log(username + " " + website);
+//     }
 
-function prints() {
-    return console.log("Hello");
-}
+//     //console.log(website)
+// }
 
-
-console.log(NaN === NaN);
-
-console.log(isNaN(NaN));
+// console.log(username + " " + website);
 
 
 
-// *Map - The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
+
+// function prints() {
+//     return console.log("Hello");
+// }
 
 
-let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// console.log(NaN === NaN);
 
-let newArray = array.map(
-    function (element, index) {
-        return element * 2
-    }
-)
-
-console.log(newArray)
-console.log(array)
+// console.log(isNaN(NaN));
 
 
 
-//return keyword in functions
+// // *Map - The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
+
+
+// let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// let newArray = array.map(
+//     function (element, index) {
+//         return element * 2
+//     }
+// )
+
+// console.log(newArray)
+// console.log(array)
 
 
 
-function add(a, b) {
-    return a + b
-
-}
-
-let val = add(2, 3);
-console.log(val)
-
-
-const obj = { foo: 'bar', baz: { nested: 'value' } };
-
-console.log(obj);
+// //return keyword in functions
 
 
 
-function reverseString(str) {
-    return str.split('').reverse().join('');
-}
+// function add(a, b) {
+//     return a + b
+
+// }
+
+// let val = add(2, 3);
+// console.log(val)
 
 
-console.log(reverseString("madam"));
+// const obj = { foo: 'bar', baz: { nested: 'value' } };
+
+// console.log(obj);
 
 
-nums.reduce(function (previousValue, currentValue, index, array) {
-    console.log(previousValue, currentValue, index, array)
-}, 10)
 
-let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-
-let total = nums.reduce(function(prevValue , currValue ){
-    console.log(`prevValue: ${prevValue} , currValue: ${currValue}`)
-    return prevValue + currValue
-},0)
-
-console.log(total)
+// function reverseString(str) {
+//     return str.split('').reverse().join('');
+// }
 
 
-function one()
-{
-    return 
+// console.log(reverseString("madam"));
+
+
+// nums.reduce(function (previousValue, currentValue, index, array) {
+//     console.log(previousValue, currentValue, index, array)
+// }, 10)
+
+// let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// let total = nums.reduce(function(prevValue , currValue ){
+//     console.log(`prevValue: ${prevValue} , currValue: ${currValue}`)
+//     return prevValue + currValue
+// },0)
+
+// console.log(total)
+
+
+// function one()
+// {
+//     return 
     
-}
+// }
 
 
-console.log(10 / "appple")
+// console.log(10 / "appple")
+
+
+
+// let customDate = new Date(2022 , 0 , 5 , 10 , 30 , 30 , 0)
+// console.log(customDate)
+
+// function Add()
+// {
+//     10 + 20
+// }
+
+// console.log(Add())
+
+// const myFoo = ()=>{
+//     return 10+20
+// }
+
+// console.log(myFoo())
+
+
+let myCeil = 10.2
+console.log(Math.floor(myCeil))
+
+
+let myString = "suraj jha this is my fav language 'javascript' and i love it"
