@@ -59,6 +59,7 @@ console.log(numbers.join(":"))
 let toys = ["Car","Bike","Plane","Train","Truck"];
 toys.splice(1,3)
 console.log(toys)
+
 // b. Adding elements
 let fruits = ["Apple","Banana","Mango","Orange","Pineapple","Grapes"];
 fruits.splice(2,0,"Guava")

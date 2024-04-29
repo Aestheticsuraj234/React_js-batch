@@ -1,4 +1,3 @@
-Apologies for the oversight. Let's ensure the `construct()` function is called after defining it. We need to include the function call at the end of the script to ensure that drum elements are constructed and added to the DOM.
 
 ```javascript
 // Define an object to hold information about drum elements
@@ -41,6 +40,8 @@ var data = {
         sound: 'sounds/tink.wav'
     }
 };
+
+
 // Get the drumkit element from the DOM
 var drumkit = document.getElementById("drumkit");
 
@@ -98,6 +99,7 @@ function construct() {
    ```javascript
        drumElement.appendChild(h2);
        drumElement.append(span);
+        drumkit.appendChild(drumElement);
    ```
    - The `<h2>` and `<span>` elements are appended as children to the drum element `<div>` using `appendChild()`
 
