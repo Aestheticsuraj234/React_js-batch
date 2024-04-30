@@ -4,7 +4,7 @@ Sync (synchronous) and async (asynchronous) are terms used in programming, espec
 
 2. **Async (Asynchronous)**: In asynchronous operations, tasks are executed independently of the main program flow. This means that the program can continue to execute other tasks while waiting for an asynchronous operation to complete. Asynchronous operations are typically used for tasks that may take some time to complete, such as fetching data from a server or reading a file.
 
-JavaScript (JS) is a language that supports both synchronous and asynchronous programming. While JavaScript itself is synchronous by default, it provides mechanisms for handling asynchronous operations effectively. This is crucial for tasks like making network requests, reading files, or handling user interactions without blocking the main execution thread.
+JavaScript (JS) is a language that supports both synchronous and asynchronous programming. While JavaScript itself is synchronous by default, it provides mechanisms for handling asynchronous operations effectively. This is crucial for tasks like making network requests, reading files, or handling user interactions without blocking the main execution.
 
 Asynchronous JavaScript (often abbreviated as async JS) refers to the usage of asynchronous programming techniques in JavaScript to handle tasks like fetching data from servers, handling user interactions, or any other operations that may take time to complete. This is commonly achieved through features like callbacks, promises, and async/await syntax in modern JavaScript.
 

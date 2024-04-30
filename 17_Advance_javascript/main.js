@@ -1,10 +1,13 @@
-// // // *sync and async?
+function syncFunction() {
+    console.log("Task 1");
+    console.log("Task 2");
+    console.log("Task 3");
+}
 
-// // console.log("I am a sync code") 
-// // setTimeout(()=>{
-// //     console.log("I am a async code")
-// // } , 5000)
-// // c
+console.log("Before calling synchronous function");
+syncFunction();
+console.log("After calling synchronous function");
+
 
 setInterval
 setTimeout
@@ -12,7 +15,31 @@ fetch
 axios
 Promise
 async / await 
- XMLHttpRequest
+XMLHttpRequest
+
+
+setTimeout(()=> {
+    console.log("Task 1");
+}, 2000);
+
+setTimeout(()=>{
+    console.log("this is my task-2");
+},3000)
+
+
+setTimeout(()=>{
+    console.log("this is my task-3");
+},1000)
+
+
+ // // *sync and async?
+
+// // console.log("I am a sync code") 
+// // setTimeout(()=>{
+// //     console.log("I am a async code")
+// // } , 5000)
+// // c
+
 
 
 
@@ -31,7 +58,9 @@ async / await
 // // async
 
 // console.log("task_1")
-// setTimeout(()=>{
-//     console.log("task_2")
-// }, 2000)
-// console.log("task_3")
+setTimeout(()=>{
+    console.log("task_2") }, 2000)
+
+
+
+
