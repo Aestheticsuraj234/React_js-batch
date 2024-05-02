@@ -1,5 +1,5 @@
 **Promises: Asynchronous Operations**
-ou receive a confirmation message but must wait for delivery. This illustrates JavaScript's asynchronous operations, which don't block the main thread during 
+u receive a confirmation message but must wait for delivery. This illustrates JavaScript's asynchronous operations, which don't block the main thread during 
 Imagine ordering a pizza online; execution.
 
 Promises handle the result (success or failure) of these operations asynchronously. They act as a contract between the caller and the executor.
