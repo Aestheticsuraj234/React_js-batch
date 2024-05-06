@@ -6,6 +6,7 @@ function clearDisplay() {
     document.getElementById('display').value = '';
 }
 
+
 function calculate() {
     try {
         var result = eval(document.getElementById('display').value);
@@ -18,4 +19,4 @@ function calculate() {
 
 
 
-
+ 
