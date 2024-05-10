@@ -49,14 +49,11 @@ So, when you want to build something cool with your LEGO bricks, you don't have 
 
 ### Introduction to React
 
-
-I can definitely give you some notes on introducing React:
-
 **What is React?**
 
 React is a popular JavaScript library for building user interfaces. It's considered a  declarative, efficient, and flexible library. It allows you to create complex UIs by breaking them down into smaller, reusable pieces of code called components. 
 
-**Why Use React?**
+**Why Use React?** 
 
 There are several advantages to using React:
 
@@ -77,3 +74,6 @@ Here are some other key concepts in React:
 
 [https://react.dev/blog/2023/03/16/introducing-react-dev]
 
+
+
+--- Virtual Dom
