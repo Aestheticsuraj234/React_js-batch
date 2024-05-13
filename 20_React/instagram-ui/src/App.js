@@ -11,7 +11,7 @@ const App = () => {
         <LeftSidebar />
 
 
-        <div className='flex flex-1 h-full'>
+        <div className='max-w-[670px]'>
           <Feed />
         </div>
         {/* right sidebar */}

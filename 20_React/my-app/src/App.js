@@ -1,13 +1,12 @@
-import Heading from "./Heading";
 
 const App = () => {
 
 
     return (
-        <>
-            <Heading heading={20} />
+        <div className="bg-gray-800 h-screen w-full flex">
+        <h1 className="text-3xl text-yellow-600 font-bold">Hello world</h1>
 
-        </>
+        </div>
     )
 }
 
