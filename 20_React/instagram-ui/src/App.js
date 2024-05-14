@@ -5,7 +5,7 @@ import RightSidebar from './Components/RightSidebar'
 
 const App = () => {
   return (
-    <main className="flex h-screen bg-black">
+    <main className="flex h-auto bg-black">
 
       <div className='w-full md:flex'>
         <LeftSidebar />

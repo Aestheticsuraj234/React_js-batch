@@ -11,9 +11,9 @@ const App = () => {
 
 
     {/* feed */}
-    <div className='flex flex-1 h-full'>
+    <div className='flex min-w-[630px]'>
           <Feed />
-        </div>
+      </div>
 
     {/* RightSidebar */}
 
