@@ -1,47 +1,15 @@
-import React , {useState} from 'react'
+import React from 'react'
+import Profile from './components/Profile'
+import  { Toaster } from 'react-hot-toast';
 
 const App = () => {
-    // use State Hooks
-    const [count , setCount] = useState(0);
-    const [toggleMode , setToggleMode] = useState("dark");
-    const [isDark , setIsDark] = useState(true);
-    
-     const toggleModeHandler = ()=>{
-        if(isDark)
-            {
-                setToggleMode("light");
-                setIsDark(false);
-            }
-            else
-            {
-                setToggleMode("dark");
-                setIsDark(true);
-            }
-     }
-
-
-     console.log(toggleMode)
-    
-    return (
-    
-    <div className={`h-screen flex justify-center items-center gap-6 ${(toggleMode==="dark" && isDark===true) ? "bg-gray-800 text-white": "bg-gray-100 text-black" }`}>
-                <button onClick={()=>setCount(count+1)} className='bg-green-500 px-4 py-2 rounded-md  font-semibold text-xl'>+</button>
-                <span className="text-xl font-bold ">{count}</span>
-                <button  onClick={()=>setCount(count-1)} className='bg-red-500 px-4 py-2 rounded-md  font-semibold text-xl'>-</button>
-
-                <button onClick={toggleModeHandler} className='bg-white px-4 py-2 rounded-md text-black font-semibold text-xl' >
-                    {(toggleMode==="dark" && isDark===true) ? "Light Mode" : "Dark Mode"  }
-                </button>
-    </div>
+  return (
+    <div className='bg-[#212121]  text-white  h-auto flex flex-col justify-start items-center px-4 py-5 '>
+      <h1 className="text-5xl font-extrabold bg-clip-text text-transparent  bg-gradient-to-r from-indigo-300 to-purple-400">Github Profile Checker</h1>
+      <Profile/>
+      <Toaster/>
+    </div>  
   )
 }
 
 export default App
-
-
-    // Hook Rules
-    // There are 3 rules for hooks:
-    
-    // Hooks can only be called inside React function components.
-    // Hooks can only be called at the top level of a component.
-    // Hooks cannot be conditional
