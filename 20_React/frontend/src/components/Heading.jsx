@@ -10,5 +10,3 @@ const Heading = () => {
 }
 
 export default Heading
-
-199624

@@ -1,4 +1,5 @@
 import React from 'react'
+import H2 from './H2'
 
 const Avatar = ({ url,username }) => {
     return (
@@ -10,7 +11,7 @@ const Avatar = ({ url,username }) => {
                     className='w-36 h-36 rounded-full object-contain'
                 />
             </div>
-            <h2 className='text-2xl  text-center font-semibold'>{username}</h2>
+            <H2 username={username} />
         </div>
     )
 }
