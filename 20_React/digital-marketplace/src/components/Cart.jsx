@@ -1,12 +1,14 @@
 import { ShoppingCart } from "lucide-react"
-import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "./ui/sheet"
+import { Sheet, SheetContent, SheetFooter, SheetHeader, SheetTitle, SheetTrigger } from "./ui/sheet"
 import { Separator } from "./ui/separator";
+import { Link } from "react-router-dom";
+import { buttonVariants } from "./ui/button";
 
 
 
 const Cart = () => {
 
-    const itemCount = 2;
+    const itemCount = 0;
 
     return (
         <Sheet>
@@ -47,9 +49,46 @@ const Cart = () => {
                                 </div>
                             </div>
                         </div>
+
+
+
+                        <SheetFooter>
+                            <SheetTrigger asChild>
+                                    <Link 
+                                    href="/cart"
+                                    className={buttonVariants({className:"w-full mx-2"})}
+                                    >
+                                        Continue to checkout
+                                    </Link>
+                            </SheetTrigger>
+                        </SheetFooter>
                     </>
                 ) : (
-                    <div></div>
+                    <div className="flex h-full flex-col items-center justify-center space-y-1">
+                            <div aria-hidden className="relative mb-4 h-60 w-60 text-muted-foreground">
+                                <img
+                                src="/hippo-empty-cart.png"
+                                alt="Empty cart illustration"
+                                className="absolute inset-0 w-full h-full object-contain"
+
+                                />
+                            </div>
+                            <div className="text-xl font-semibold">
+                                Your cart is empty
+                            </div>
+                            <SheetTrigger asChild>
+                                <Link 
+                                to="/products"
+                                className={buttonVariants({
+                                    variant:"link",
+                                    size:"sm",
+                                    className:"text-sm text-muted-foreground"
+                                })}
+                                >
+                                   Add items to your cart to checkout
+                                </Link>
+                            </SheetTrigger>
+                    </div>
                 )}
             </SheetContent>
 
