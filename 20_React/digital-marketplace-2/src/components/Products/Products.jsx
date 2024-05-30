@@ -7,6 +7,7 @@ const ProductReel = () => {
     const title = "New Arrivals"
     const subtitle = "Shop the latest products from our collection"
     const href = "/products"
+    
     return (
         <section className="py-12">
             <div className="md:flex md:items-center md:justify-between mb-4">
