@@ -3,7 +3,7 @@ import {  useState } from "react";
 import NavItem from "./NavItem";
 
 const NavItems = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(null);
 
   return (
     <div className="flex gap-4 h-full">

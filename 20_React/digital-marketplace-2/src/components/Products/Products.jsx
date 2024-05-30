@@ -1,7 +1,5 @@
 
-import { products } from "@/data"
-import { ProductListing } from "./ProductListing"
-import { Button } from "./ui/button"
+import { Button } from "../ui/button"
 
 
 const ProductReel = () => {
@@ -18,15 +16,14 @@ const ProductReel = () => {
                 </div>
 
 
-                {href ? <Button   variant={"link"}
-                
+                {href ? <Button 
                     className="hidden text-sm font-medium text-blue-600 hover:text-blue-500  md:block"
 
                 >Shop the collection <span aria-hidden >&rarr;</span></Button> : null}
             </div>
 
 
-        <div className="relative">
+        {/* <div className="relative">
                 <div className="mt-6 flex items-center w-full">
                         <div className="w-full grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-4 md:gap-y-10 lg:gap-x-8 ">
                             {
@@ -37,7 +34,7 @@ const ProductReel = () => {
 
                         </div>
                 </div>
-        </div>
+        </div> */}
 
         </section>
     )

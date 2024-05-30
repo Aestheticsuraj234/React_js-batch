@@ -1,6 +1,7 @@
 import { ArrowDownToLine, CheckCircle, Leaf } from "lucide-react"
 import MaxWidthWrapper from "../global/MaxWidthWrapper"
 import { Button } from "../ui/button"
+import Products from "../Products/Products"
 
 const perks = [
     {
@@ -46,8 +47,10 @@ const Home = () => {
                     </div>
 
                 </div>
+                <Products />
             </MaxWidthWrapper>
 
+           
 
 
             <section className="border-t border-gray-200 bg-gray-100">
