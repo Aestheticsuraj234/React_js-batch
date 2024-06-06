@@ -1,12 +1,17 @@
+import { GlobalContext } from '@/context/GlobalContext';
 import { Trash } from 'lucide-react';
-import React from 'react';
+import React, { useContext } from 'react';
 
 const AddedProducts = ({
   productImage,
   productName,
   features,
-  price
+  price,
+  onRemove
 }) => {
+
+
+
   return (
     <div className=' mr-12 flex justify-between items-center px-2 py-2 rounded-md hover:bg-gray-100 shadow-md w-full
     '>
@@ -33,8 +38,8 @@ const AddedProducts = ({
       {/* right div */}
 
       <div className="flex justify-center items-center gap-5">
-                <span className=" text-md font-bold text-green-500">{price}</span>
-                <Trash className='h-8 w-8 text-red-500 rounded-full px-2 py-2 hover:bg-gray-200' />
+                <span className=" text-md font-bold text-green-500">${price}</span>
+                <Trash onClick={onRemove} className='h-8 w-8 text-red-500 rounded-full px-2 py-2 hover:bg-gray-200' />
       </div>
     </div>
   )
